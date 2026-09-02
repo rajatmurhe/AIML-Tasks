@@ -56,7 +56,7 @@ MLOps + Cloud + Deployment
 ```
 
 Learning Roadmap
-1. **Python + Backend**
+1. **Python + Backend** - 
 Python
 Python fundamentals
 Data structures
@@ -77,7 +77,7 @@ Data Structures & Algorithms
 HackerRank
 LeetCode
 Problem-solving practice
-2.  NLP Foundations
+2.  **NLP Foundations** - 
 NLP fundamentals
 Text preprocessing
 Tokenization
@@ -93,7 +93,7 @@ Projects
 
 Practical NLP projects will be built to apply the concepts learned.
 
-3. 🔧 Git + MLOps Foundations
+3. ** Git + MLOps Foundations** -
 Git
 GitHub
 Branching
@@ -102,7 +102,7 @@ GitHub Actions
 Version control
 Basic MLOps
 Reproducible ML workflows
-4. 🧠 Deep Learning
+4. **Deep Learning** -
 Neural Networks
 ANN architecture
 Activation functions
@@ -125,7 +125,7 @@ Projects
 
 At least 2 practical Deep Learning projects will be developed.
 
-5. 🤖 Advanced NLP + Generative AI
+5. **Advanced NLP + Generative AI** - 
 Advanced NLP
 Transformers
 Attention mechanisms
@@ -133,7 +133,7 @@ Seq2Seq architectures
 Generative AI fundamentals
 Text generation
 LLM fundamentals
-6. 🧩 LLM Engineering
+6.  **LLM Engineering** -
 Large Language Models
 Prompt Engineering
 OpenAI APIs
@@ -143,7 +143,7 @@ LangChain
 LLM application development
 LLM evaluation
 LLM-based projects
-7. 🔎 Vector Databases + RAG
+7. **Vector Databases + RAG** -
 Embeddings
 Vector databases
 FAISS
