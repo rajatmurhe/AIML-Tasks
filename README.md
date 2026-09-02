@@ -56,7 +56,7 @@ MLOps + Cloud + Deployment
 ```
 
 Learning Roadmap
-1. 🐍 Python + Backend
+1. **Python + Backend**
 Python
 Python fundamentals
 Data structures
@@ -77,7 +77,7 @@ Data Structures & Algorithms
 HackerRank
 LeetCode
 Problem-solving practice
-2. 📝 NLP Foundations
+2.  NLP Foundations
 NLP fundamentals
 Text preprocessing
 Tokenization
