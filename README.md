@@ -93,7 +93,7 @@ Projects
 
 Practical NLP projects will be built to apply the concepts learned.
 
-3. ** Git + MLOps Foundations** -
+3. **Git + MLOps Foundations** -
 Git
 GitHub
 Branching
