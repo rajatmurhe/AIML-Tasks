@@ -1,4 +1,4 @@
-# 🚀 AI/ML Internship — Linkific Tasks
+# AI/ML Internship — Linkific Tasks
 
 > A hands-on journey through Artificial Intelligence, Machine Learning, Deep Learning, Generative AI, LLMs, RAG, Agentic AI, and MLOps.
 
