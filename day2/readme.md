@@ -1,6 +1,6 @@
-# Day 02 — Python Fundamentals 🐍
+# Day 02 — Python Fundamentals 
 
-## 🎯 Objective
+## Objective
 
 The objective of Day 2 was to understand the fundamentals of Python programming and apply them through basic practice programs and small projects.
 
@@ -15,7 +15,7 @@ The main topics covered were:
 
 ---
 
-## 📚 What I Learned
+## 📚hat I Learned
 
 ### Variables
 
