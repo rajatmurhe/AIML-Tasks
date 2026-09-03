@@ -21,9 +21,7 @@ The main topics covered were:
 
 Variables are used to store values in a Python program.
 
-```python
-name = "Rajat"
-age = 21
+
 
 I learned how to create variables, assign values, and use them in programs.
 
