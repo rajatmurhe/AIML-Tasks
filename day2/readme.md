@@ -78,6 +78,8 @@ User input
 Data types
 Conditional statements
 Basic calculations
+
+
 2. Simple Calculator
 
 A Python calculator that performs:
@@ -95,21 +97,3 @@ User input
 Conditional statements
 Arithmetic operators
 Return values
-📂 Files
-Day-02/
-│
-├── README.md
-├── python_practice.py
-├── student_grade_calculator.py
-└── simple_calculator.py
-python_practice.py
-
-Contains practice programs covering Python variables, data types, conditions, loops, and functions.
-
-student_grade_calculator.py
-
-Calculates a student's grade based on their marks.
-
-simple_calculator.py
-
-Performs basic arithmetic operations using functions.
