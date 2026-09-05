@@ -116,7 +116,7 @@ Example record:
 103,Rahul,21,A+
 
 The program can read these records from the file and display or search them when required.
-
+```
 Project Structure
 Day-03/
 │
@@ -126,16 +126,24 @@ Day-03/
 ├── students.txt
 └── practice.txt
 python_data_structures.py
+```
 
 Contains practice programs for Lists, Tuples, Dictionaries, Sets, and File Handling.
+
+
 
 student_record_management.py
 
 Contains the Student Record Management System.
 
+
+
 students.txt
 
 Stores student records used by the Student Record Management System.
+
+
+
 
 practice.txt
 
