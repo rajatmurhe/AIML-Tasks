@@ -16,7 +16,7 @@ Lists are ordered and changeable collections used to store multiple values.
 
 ```python
 students = ["Rajat", "Amit", "Rahul"]
-
+```
 I learned how to create lists, access elements, add elements, remove elements, and iterate through lists.
 
 Tuples
