@@ -1,6 +1,4 @@
-Great. Now paste this into `day8/README.md` on GitHub:
 
-````markdown
 # Day 8 — Data Cleaning and Preprocessing
 
 ## AI/ML Internship — Day 8
