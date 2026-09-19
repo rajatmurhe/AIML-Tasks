@@ -1,0 +1,296 @@
+
+# DAY 14 — AI/ML INTERNSHIP REPORT
+
+## AI/ML Internship — Day 14
+
+**Name:** Rajat Murhe
+**GitHub Repository:** [Linkific-Tasks](https://github.com/rajatmurhe/Linkific-Tasks)
+
+## Introduction
+
+On Day 14, I developed an end-to-end **Sentiment Analysis Machine Learning project** using IMDb movie reviews.
+
+The objective was to apply the Machine Learning concepts learned during the previous days to a practical NLP problem. I cleaned the review text, converted it into numerical features using TF-IDF, trained a Logistic Regression model, evaluated its performance, and tested the model on custom reviews. The notebook used 25,000 training reviews and 25,000 testing reviews. 
+
+## What I Learned
+
+* How to build an end-to-end Machine Learning workflow.
+* How to work with a real-world text dataset.
+* How to clean and preprocess textual data.
+* How TF-IDF converts text into numerical features.
+* How to train Logistic Regression for sentiment classification.
+* How to evaluate a text classification model.
+* How to test a trained model on new custom reviews.
+
+## Project: IMDb Sentiment Analysis
+
+### Dataset Used
+
+I used the **IMDb Movie Reviews dataset**, containing:
+
+* 25,000 training reviews.
+* 25,000 testing reviews.
+* Two sentiment classes: Negative and Positive.
+
+The training and testing datasets were balanced, with 12,500 reviews in each class. 
+
+## Data Preprocessing
+
+The reviews were cleaned before Machine Learning.
+
+The preprocessing included:
+
+* Removing HTML tags.
+* Removing non-alphabetic characters.
+* Removing extra spaces.
+* Converting the text to lowercase.
+
+The cleaned reviews were then used for TF-IDF feature extraction. 
+
+## TF-IDF Vectorization
+
+I used **TF-IDF (Term Frequency–Inverse Document Frequency)** to convert the cleaned reviews into numerical features.
+
+The vectorizer was configured with:
+
+* Maximum 10,000 features.
+* English stopword removal.
+* Unigrams and bigrams.
+
+The resulting training and testing matrices had shapes of **25,000 × 10,000**. 
+
+## Machine Learning Model
+
+I used **Logistic Regression** as the classification algorithm.
+
+The model was trained using the TF-IDF features from the training reviews and then used to predict the sentiment of the test reviews. 
+
+## Model Performance
+
+The Logistic Regression model achieved:
+
+* **Accuracy:** 88.33%
+* **Precision:** 88.12%
+* **Recall:** 88.61%
+* **F1 Score:** 88.36% 
+
+The classification report showed approximately 88% precision, recall, and F1-score for both sentiment classes. 
+
+## Custom Predictions
+
+I tested the trained model on four new reviews.
+
+The predictions were:
+
+* Positive review → **Positive**
+* Negative review → **Negative**
+* Positive review → **Positive**
+* Negative review → **Negative** 
+
+## Project Workflow
+
+```text
+IMDb Movie Reviews
+        ↓
+Text Cleaning
+        ↓
+TF-IDF Vectorization
+        ↓
+Logistic Regression
+        ↓
+Sentiment Prediction
+        ↓
+Model Evaluation
+        ↓
+Custom Review Testing
+```
+
+This is also the workflow implemented in the final notebook. 
+
+## Challenges Faced
+
+* Working with a large text dataset.
+* Converting encoded IMDb reviews back into readable text.
+* Cleaning the review text before vectorization.
+* Understanding the TF-IDF feature matrix.
+* Training a Machine Learning model on thousands of text features.
+
+## Key Takeaways
+
+* NLP can be combined with Machine Learning to solve practical text classification problems.
+* TF-IDF is useful for converting text into numerical features.
+* Logistic Regression can be used effectively for binary sentiment classification.
+* Accuracy should be considered together with Precision, Recall, and F1 Score.
+* Testing custom reviews helps demonstrate the practical use of the trained model.
+
+## Deliverables
+
+* Complete Sentiment Analysis Notebook.
+* IMDb dataset processing.
+* Text preprocessing pipeline.
+* TF-IDF feature extraction.
+* Logistic Regression model.
+* Model evaluation results.
+* Confusion Matrix.
+* Custom review predictions.
+* README documentation.
+* GitHub update.
+
+## Next Steps
+
+I will continue with more advanced NLP and Machine Learning techniques and apply them to larger and more complex datasets.
+
+---
+
+# DAY 14 — README.md
+
+````markdown
+# Day 14 — IMDb Sentiment Analysis
+
+## Introduction
+
+On Day 14 of my AI/ML internship, I developed an end-to-end Machine Learning project for sentiment analysis using IMDb movie reviews.
+
+The project uses text preprocessing, TF-IDF feature extraction, and Logistic Regression to classify movie reviews as Positive or Negative.
+
+## Objectives
+
+- Work with a real-world text dataset.
+- Clean and preprocess text data.
+- Convert text into numerical features using TF-IDF.
+- Train a Machine Learning classification model.
+- Evaluate model performance.
+- Test the model on custom reviews.
+
+## Dataset
+
+The IMDb dataset contains:
+
+- 25,000 training reviews.
+- 25,000 testing reviews.
+- Two sentiment classes: Positive and Negative.
+
+The dataset is balanced between the two classes.
+
+## Technologies Used
+
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Scikit-learn
+- TensorFlow / Keras
+- Google Colab
+- Git
+- GitHub
+
+## Text Preprocessing
+
+The following preprocessing steps were applied:
+
+- Removed HTML tags.
+- Removed non-alphabetic characters.
+- Removed extra spaces.
+- Converted text to lowercase.
+
+## TF-IDF Vectorization
+
+TF-IDF was used to convert the cleaned movie reviews into numerical features.
+
+Configuration used:
+
+- Maximum features: 10,000
+- English stopword removal
+- Unigrams and bigrams
+
+The final TF-IDF matrices contained:
+
+```text
+Training: 25000 × 10000
+Testing : 25000 × 10000
+````
+
+## Machine Learning Model
+
+### Logistic Regression
+
+Logistic Regression was trained using the TF-IDF features to classify reviews into Positive and Negative sentiment classes.
+
+## Model Evaluation
+
+The final model achieved:
+
+```text
+Accuracy : 88.33%
+Precision: 88.12%
+Recall   : 88.61%
+F1 Score : 88.36%
+```
+
+## Classification Report
+
+The model achieved approximately 88% precision, recall, and F1-score for both Negative and Positive classes.
+
+## Confusion Matrix
+
+A confusion matrix was generated to analyze the correct and incorrect predictions for both sentiment classes.
+
+## Custom Predictions
+
+The trained model was tested on four custom reviews.
+
+```text
+"This movie was amazing and I really enjoyed it."
+Prediction: Positive
+
+"The movie was boring, predictable and disappointing."
+Prediction: Negative
+
+"An excellent film with great acting and a wonderful story."
+Prediction: Positive
+
+"I did not like this movie at all."
+Prediction: Negative
+```
+
+## Project Workflow
+
+```text
+IMDb Reviews
+     ↓
+Text Cleaning
+     ↓
+TF-IDF Vectorization
+     ↓
+Logistic Regression
+     ↓
+Predictions
+     ↓
+Model Evaluation
+     ↓
+Custom Review Testing
+```
+
+## Key Takeaways
+
+* Text preprocessing is important before applying Machine Learning to text.
+* TF-IDF converts textual data into numerical features.
+* Logistic Regression can be used for binary sentiment classification.
+* Multiple evaluation metrics provide a better understanding of model performance.
+* Custom predictions demonstrate how the trained model can be used on new text.
+
+## Files
+
+```text
+day14/
+├── README.md
+└── day14_sentiment_analysis.ipynb
+```
+
+## Conclusion
+
+This project helped me apply the NLP and Machine Learning concepts learned during the internship to a practical problem.
+
+I completed the complete workflow from data loading and text preprocessing to TF-IDF feature extraction, model training, evaluation, and custom sentiment prediction.
+
+
